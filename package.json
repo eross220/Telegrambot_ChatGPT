@@ -1,0 +1,25 @@
+{
+  "name": "Telegram_bot_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Visa-365",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "gpt-3-encoder": "^1.1.4",
+    "key-file": "^0.1.0",
+    "keyv-file": "^0.2.0",
+    "node-fetch": "^2.6.9",
+    "node-telegram-bot-api": "^0.60.0",
+    "nodemon": "^2.0.20",
+    "openai": "^3.1.0",
+    "uuidv4": "^6.2.13"
+  }
+}
